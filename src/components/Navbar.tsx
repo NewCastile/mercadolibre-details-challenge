@@ -76,9 +76,9 @@ export default function Navbar() {
           <GridItem display={"flex"} flexDirection={"row"}>
             <Stack alignItems={"center"} direction={"row"} justifyContent={"center"}>
               <Icon as={GoLocation} height={"6"} width={"8"} />
-              <Stack paddingY={"0"} spacing={"0"}>
-                <Text lineHeight={"1"}>Envía a</Text>
-                <Text lineHeight={"1"}>Buenos Aires</Text>
+              <Stack alignSelf={"flex-end"} paddingY={"0"} spacing={"0"}>
+                <Text>Envía a</Text>
+                <Text>Buenos Aires</Text>
               </Stack>
             </Stack>
           </GridItem>
