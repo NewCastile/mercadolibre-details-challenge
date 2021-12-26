@@ -5,7 +5,6 @@ import {ChakraProvider, ColorModeScript} from "@chakra-ui/react";
 
 import App from "./app";
 import theme from "./theme";
-import styles from "./styles/global.css";
 
 ReactDOM.render(
   <>
